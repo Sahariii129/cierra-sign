@@ -1,0 +1,249 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Poppins';
+}
+.btn-get-started {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    #243b53;
+  border-radius: 20px;
+  width: 125px;
+}
+
+.banner {
+  height: 714px;
+}
+
+.banner .title {
+  width: 841px;
+}
+
+.banner .subtitle {
+  width: 615px;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.banner .btn,
+.document .btn {
+  border-radius: 32px;
+}
+
+.blueVector {
+  right: 0;
+  bottom: 0;
+}
+
+.greyVector {
+  bottom: 0;
+  left: 0;
+}
+
+.lightOrangeVector {
+  bottom: 0;
+  left: 19%;
+}
+
+.orangeVector {
+  bottom: 46%;
+  left: 0;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.get-started .card {
+  width: 360px;
+  height: 398px;
+}
+
+.get-started .btn {
+  border-radius: 32px;
+}
+
+.tools {
+  height: 656px;
+  margin-top: 164px;
+}
+
+.Vector {
+  left: 0;
+  top: -8.5%;
+}
+
+.Vector1 {
+  right: 0;
+  top: -8.5%;
+}
+
+.Vector2 {
+  right: 0;
+  bottom: 0;
+}
+
+.Rectangle62 {
+  left: 0;
+  top: 29.7%;
+}
+
+.step {
+  margin-bottom: 104px;
+}
+
+.section1 .description {
+  width: 31%;
+  margin-right: 7.65rem;
+}
+
+.step .relative {
+  width: 57%;
+}
+
+.protected {
+  height: 701px;
+  width: 57.2%;
+}
+
+.section2 .description {
+  margin-left: 5.75rem;
+  margin-right: 7.75rem;
+  width: 27.8%;
+}
+
+.section3,
+.section1 {
+  padding: 0 7.75rem 0 7.75rem;
+}
+
+.section3 .description {
+  margin-right: 10.68rem;
+  width: 27.8%;
+}
+
+.section4 .description {
+  margin-right: 7.375rem;
+  margin-left: 4.25rem;
+  width: 27.8%;
+}
+
+.workflow {
+  width: 59.3%;
+  height: 622px;
+}
+
+.questions {
+  height: 817px;
+  border-radius: 0px 240px 0px 0px;
+}
+
+.rotateUpIcon{
+  transform: rotateX(180deg);
+  transition: all .3s ease;
+}
+
+.rotateDownIcon{
+  transform: rotateX(0deg);
+  transition: all .3s ease;
+}
+
+.Rectangle49 {
+  bottom: 11.9%;
+  right: 0;
+}
+
+.Vector3 {
+  right: 8.6%;
+  top: -3.4%;
+}
+
+.Vector5 {
+  right: 8.2%;
+  bottom: -13.7%;
+}
+
+.Vector6 {
+  bottom: 8%;
+  left: 0;
+}
+
+.Vector7 {
+  top: -9%;
+  left: 0;
+}
+
+.document {
+  margin-top: 200px;
+}
+
+.shapes {
+  height: 671px;
+  margin-top: 140px;
+}
+
+.Rectangle50 {
+  right: 8.6%;
+  bottom: -6.7%;
+}
+
+.Rectangle51 {
+  top: 0;
+  right: 55.7%;
+}
+
+.Rectangle52 {
+  left: 46.4%;
+  top: 0;
+}
+
+.Vector8 {
+  top: 0;
+  left: 0;
+}
+
+.Vector9 {
+  left: 10%;
+  bottom: -6.7%;
+}
+
+.Vector10 {
+  top: 0;
+  right: 0;
+}
+
+.Vector11 {
+  left: 46.4%;
+  top: 38.4%;
+}
+
+.Vector12 {
+  left: 0;
+  top: 33.5%;
+  transform: rotate(-90deg);
+}
+
+.Vector13 {
+  left: 27.6%;
+  bottom: -6.7%;
+}
+
+.Vector14 {
+  right: 55.7%;
+  top: 38.4%;
+}
+
+footer {
+  padding: 8.3rem 7.75rem 0 7.75rem;
+}
+
+footer input {
+  border-radius: 100px;
+}
+
+footer p {
+  font-size: 12px;
+  line-height: 19px;
+}
